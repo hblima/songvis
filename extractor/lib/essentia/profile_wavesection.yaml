@@ -1,0 +1,5 @@
+verbose: false
+
+highlevel:
+    compute: 1
+    svm_models: ['lib/essentia/svm_models/mood_happy.history']

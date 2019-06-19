@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/d3.v5.min.js" charset="utf-8"></script>
+    <script src="songvis_min.js" charset="utf-8"></script>
+    <!-- <script src="src/songvis.min.v01.js" charset="utf-8"></script> -->
+    <meta charset="utf-8">
+    <title>SongVis</title>
+  </head>
+  <body>
+    <div>
+      <h1>SongVis</h1>
+      <h2>visualizing the semantics of music</h2>
+    </div><br>
+
+    <div>
+      <div class="songvis" id="songvis02"><p>F. Chopin - Op. 28 - 12. <br>In G Sharp Minor</p></div>
+      <div class="songvis" id="songvis01"><p>The Beatles - Let it Be</p></div>
+      <div class="songvis" id="songvis03"><p>ABBA - Mamma Mia</p></div>
+    </div>
+    
+    <div class="">
+      <p>SongVis é uma visualização de música que representa visualmente uma canção, dando ênfase à características diversas, como: gênero musical, instrumento predominante, tempo (BPM), sentimento (feliz, triste) e dancibilidade (dançável ou não-dançável).</p>
+    </div>
+
+
+    <div id="template" align="center">
+      <img src="img/template.svg" alt="legenda">
+    </div>
+    <div>
+      <p>Primeiramente, experimente brevemente essa visualização. Veja o significado dos ícones (emojis), das cores e formas usadas na visualização.</p>
+    </div>
+    <div id="legenda" align="center">
+      <img src="img/legenda.svg" alt="legenda">
+    </div>
+
+    <p>Passando o mouse ou clicando nos ícones de "tempo" e "sentimento" a visualização muda na "seção de onda".</p>
+    <div>
+      <div class="songvis" id="songvis04"><p>David Bowie - The Prettiest Star</p></div>
+      <div class="songvis" id="songvis05"><p>Oasis - Wonderwall</p> </div>
+      <div class="songvis" id="songvis06"><p>Bob Dylan - Tangled Up In Blue</p> </div>
+      <div class="songvis" id="songvis07"></div>
+      <div class="songvis" id="songvis08"></div>
+    <div class="songvis" id="songvis09"></div>
+
+
+    <div class="songvis" id="songvis10"></div>
+    <div class="songvis" id="songvis11"></div>
+    <div class="songvis" id="songvis12"></div>
+    <div class="songvis" id="songvis13"></div>
+    <div class="songvis" id="songvis14"></div>
+    <div class="songvis" id="songvis15"></div>
+    <div class="songvis" id="songvis16"></div>
+    <div class="songvis" id="songvis17"></div>
+    <div class="songvis" id="songvis18"></div>
+    <div class="songvis" id="songvis19"></div>
+    <div class="songvis" id="songvis20"></div>
+    <div class="songvis" id="songvis21"></div>
+    <div class="songvis" id="songvis22"></div>
+    <div class="songvis" id="songvis23"></div>
+    <div class="songvis" id="songvis24"></div>
+    <div class="songvis" id="songvis25"></div>
+    <div class="songvis" id="songvis26"></div>
+    <div class="songvis" id="songvis27"></div>
+    <div class="songvis" id="songvis28"></div>
+  </body>
+
+  <script type="text/javascript">
+     SongVis("songvis01",150, "data/let_it_be.json");
+     SongVis("songvis02",150, "data/Preludes, Op. 28- 12. In G Sharp Minor.json");
+     SongVis("songvis03",150, "data/Mamma Mia.json");
+     SongVis("songvis04",150, "data/The Prettiest Star.json");
+     SongVis("songvis05",150, "data/Wonderwall.json");
+     SongVis("songvis06",150, "data/tangled_up_in_blue.json");
+     SongVis("songvis07",70, "data/samba em preludio.json");
+     SongVis("songvis08",70, "data/Gershwin- Rhapsody In Blue (Original Version).json");
+     SongVis("songvis09",70, "data/A Night In Tunisia.json");
+  </script>
+  <script type="text/javascript">
+    SongVis("songvis10",70, "data/json/cla01.json");
+    SongVis("songvis11",70, "data/json/cla02.json");
+    SongVis("songvis12",70, "data/json/dis01.json");
+    SongVis("songvis13",70, "data/json/dis02.json");
+    SongVis("songvis14",70, "data/json/fol01.json");
+    SongVis("songvis15",50, "data/json/fol02.json");
+    SongVis("songvis16",50, "data/json/fun01.json");
+    SongVis("songvis17",50, "data/json/fun02.json");
+    SongVis("songvis18",50, "data/json/jaz01.json");
+    SongVis("songvis19",50, "data/json/jaz02.json");
+    SongVis("songvis20",50, "data/json/mpb01.json");
+    SongVis("songvis21",50, "data/json/mpb02.json");
+    SongVis("songvis22",50, "data/json/mpb03.json");
+    SongVis("songvis23",50, "data/json/pop01.json");
+    SongVis("songvis24",50, "data/json/pop02.json");
+    SongVis("songvis25",50, "data/json/roc01.json");
+    SongVis("songvis26",50, "data/json/roc02.json");
+    SongVis("songvis27",50, "data/json/wor01.json");
+    SongVis("songvis28",50, "data/json/wor02.json");
+
+  </script>
+</html>

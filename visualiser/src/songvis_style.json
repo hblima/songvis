@@ -1,0 +1,31 @@
+{
+	"styles": {
+		"layout": {
+			"border": "solid 2px #000"
+		},
+		"glyphs": {
+			"fill": "yellow"
+		},
+		"blocks": {
+			"colors": "RedYlBlu",
+			"strokecolor": "black",
+			"strokewidth": 0.5
+		},
+		"pattern": {
+			"enable": "true",
+			"seed": 0.5,
+			"strokecolor": "black",
+			"strokewidth": 1,
+			"strokeopacity": 1
+		},
+    "waveform": {
+      "scale": 2,
+      "scalebias": 4,
+      "color": "black",
+      "opacity": 1,
+      "strokecolor": "white",
+      "strokewidth": 1.5,
+      "strokeopacity": 1
+    }
+	}
+}

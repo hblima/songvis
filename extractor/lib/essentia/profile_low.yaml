@@ -1,0 +1,15 @@
+verbose: false
+
+rhythm:
+    compute: true
+    # whether or not to use onsets as periodicity function
+    useOnset: true
+    # whether or not to use energy bands as periodicity function
+    useBands: true
+
+    # sizes of frames. Note that frameNumber*hopSize ~= about 6 seconds
+    numberFrames: 1024
+    hopSize:      256
+    frameSize:   1024
+    frameHop:    1024
+    stats: [ "mean", "var", "min", "max", "dmean", "dmean2", "dvar", "dvar2", "median" ]
